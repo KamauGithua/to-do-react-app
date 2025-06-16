@@ -6,6 +6,7 @@ const ProgressBar = ({ completed, total}) => {
     <div className=' h-4 bg-green-500 rounded transition-all duration-300'
     style={{ width: `${percent}%`}}
     >
+        {total}
     </div>
   )
 }
